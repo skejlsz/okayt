@@ -271,7 +271,7 @@ end
 
 -- Accessing the Loadstring from GitHub
 
-local url = "https://raw.githubusercontent.com/skejlsz/okayt/main/main.lua"
+local url = loadstring(game:HttpGet("https://raw.githubusercontent.com/skejlsz/okayt/main/main.lua"))()
 
 -- Fetch the script content
 local success, content = pcall(function()
