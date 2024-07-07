@@ -271,7 +271,7 @@ end
 
 -- Accessing the Loadstring from GitHub
 
-local url = "https://raw.githubusercontent.com/yourusername/yourrepository/main/main.lua"
+local url = "https://raw.githubusercontent.com/skejlsz/okayt/main/main.lua"
 
 -- Fetch the script content
 local success, content = pcall(function()
